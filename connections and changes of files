@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------------------------------
+CONNECTIONS:
+
+Activity.cs->DataContext.cs
+BaseApiController.cs->ActivitiesController.cs
+
+----------------------------------------------------------------------------------------------------------
+CHANGE FILES:
+./API/Properties/launchSettings.json file
+
+"applicationUrl": "http://localhost:5000",
+"launchBrowser": false,
+
+./API/appsettings.Development.json file
+
+"Microsoft": "Information", (TO GET ERROR logs more)
+
+  "ConnectionStrings": {
+    "DefaultConnection": "Data source=reactivities.db"
+  }
+
+./startup.cs file
+//app.UseHttpsRedirection();
+
+./Domain/Class1.cs (DELETE FILE)
+
+./Persistence/Class1.cs (DELETE FILE)
+
+./gitignore
+appsettings.json
