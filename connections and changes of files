@@ -1,10 +1,13 @@
 ----------------------------------------------------------------------------------------------------------
+FOR react js connections and changes of files
+
+----------------------------------------------------------------------------------------------------------
+FOR ASP.NET connections and changes of files
 CONNECTIONS:
 
 Activity.cs->DataContext.cs
 BaseApiController.cs->ActivitiesController.cs
 
-----------------------------------------------------------------------------------------------------------
 CHANGE FILES:
 ./API/Properties/launchSettings.json file
 
@@ -25,6 +28,8 @@ CHANGE FILES:
 ./Domain/Class1.cs (DELETE FILE)
 
 ./Persistence/Class1.cs (DELETE FILE)
+./Application/Class1.cs (DELETE FILE)
 
 ./gitignore
 appsettings.json
+----------------------------------------------------------------------------------------------------------
